@@ -10,7 +10,7 @@ Strategic classification regards the problem of learning in settings where users
 ## Requirements
 Setup the environment using 
 ```setup
-conda env create --name "name"
+conda create --name "name"
 conda activate "name"
 pip install -r requirements.txt
 pip install jupyter
