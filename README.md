@@ -10,11 +10,13 @@ Strategic classification regards the problem of learning in settings where users
 ## Requirements
 Setup the environment using 
 ```setup
-conda env create -f environment.yml
-conda activate "name env"
+conda env create --name "name"
+conda activate "name"
+pip install -r requirements.txt
 ```
 
 ## Training and Evaluation
+Use the plots.ipynb to create the plots with the saved models
 Run a notebook from start to finish to train the model and get the evaluation
 
 ## Original Authors
