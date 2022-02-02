@@ -13,6 +13,7 @@ Setup the environment using
 conda env create --name "name"
 conda activate "name"
 pip install -r requirements.txt
+jupyter notebook
 ```
 
 ## Training and Evaluation
