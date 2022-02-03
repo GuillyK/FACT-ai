@@ -1,7 +1,8 @@
 # Strategic classification made practical reproduction
 
 * Strategic classification:  the problem of learning in settings where users can strategically modify their features to improve outcomes.
-* Our contribution: a flexible, practical and socially-aware framework for learning in strategic environments.
+* The contribution of the original author: a flexible, practical and socially-aware framework for learning in strategic environments.
+* Our addition: A combined dataset where some users are gaming and some are not.
 
 ## Description
 
@@ -16,9 +17,10 @@ pip install -r requirements.txt
 pip install jupyter
 jupyter notebook
 ```
+Download the card fraud dataset from https://www.kaggle.com/mlg-ulb/creditcardfraud and put it in the data folder
 
 ## Training and Evaluation
-Use the plots.ipynb to create the plots with the saved models
+Use the Reproduction plots.ipynb to create the plots with the saved models
 Run a notebook from start to finish to train the model and get the evaluation
 
 ## Original Authors
