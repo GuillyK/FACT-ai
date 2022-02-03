@@ -11,7 +11,7 @@ Strategic classification regards the problem of learning in settings where users
 ## Requirements
 Setup the environment using 
 ```setup
-conda create --name "name"
+conda create --name "name" python=3.8
 conda activate "name"
 pip install -r requirements.txt
 pip install jupyter
@@ -20,7 +20,7 @@ jupyter notebook
 Download the card fraud dataset from https://www.kaggle.com/mlg-ulb/creditcardfraud and put it in the data folder
 
 ## Training and Evaluation
-Use the Reproduction plots.ipynb to create the plots with the saved models
+Use the Reproduction plots.ipynb to create the plots with the saved models.
 Run a notebook from start to finish to train the model and get the evaluation
 
 ## Original Authors
@@ -30,7 +30,7 @@ Sagi Levanon
 Nir Rosenfeld  
 [@NirRosenfeld](nirr@cs.technion.ac.il)
 
-## notes
+## Notes
 
 * If the environment file doesn't work you need to manually install the modules
 
