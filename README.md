@@ -8,6 +8,8 @@
 
 Strategic classification regards the problem of learning in settings where users can strategically modify their features to improve outcomes. This setting applies broadly and has received much recent attention. But despite its practical significance, work in this space has so far been predominantly theoretical. The original authors presented a learning framework for strategic classification that is practical. Our approach directly minimizes the "strategic" empirical risk, achieved by differentiating through the strategic response of users. This provides flexibility that allows us to extend beyond the original problem formulation and towards more realistic learning scenarios.
 
+The reproducibilty was mainly focussed on the vanilla notebook with editing. The other notebooks were already in the original codebase and were used to test their results for these experiments. Our extension is the semi_strategic_vanilla.ipynb notebook which can be run from start to finish. 
+
 ## Requirements
 Setup the environment using 
 ```setup
@@ -21,7 +23,7 @@ Download the card fraud dataset from https://www.kaggle.com/mlg-ulb/creditcardfr
 
 ## Training and Evaluation
 Use the Reproduction plots.ipynb to create the plots with the saved models.
-Run a notebook from start to finish to train the model and get the evaluation
+Run a notebook from start to finish to train the model and get the evaluation saved.
 
 ## Results
 
