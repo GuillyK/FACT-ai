@@ -19,7 +19,7 @@ pip install -r requirements.txt
 pip install jupyter
 jupyter notebook
 ```
-Download the card fraud dataset from https://www.kaggle.com/mlg-ulb/creditcardfraud, rename it to "card_fraud.csv" and put it in the data folder
+Download the card fraud dataset from https://www.kaggle.com/mlg-ulb/creditcardfraud, rename it to "creditcard.csv" and put it in the data folder
 
 ## Training and Evaluation
 Use the Reproduction plots.ipynb to create the plots with the saved models. Exception is the card fraud dataset, since that one was too big for github to allow. To allow card fraud dataset first
